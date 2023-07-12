@@ -1,0 +1,117 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+.image1{
+  width: 45%;
+    padding-left: 2rem;
+}
+.image1 >img{
+  width: 65%;
+  border-radius: 30px;
+  opacity: .7;
+  margin-left: 5rem;
+}
+
+#form{
+  
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 5px 7px rgba(0, 0,0, .2);
+    border-radius: 7px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+   
+  
+  }
+  
+  
+  
+  #form .btn{
+    padding: 5px;
+    margin-top: 10px;
+    width: 70%;
+    height: 30px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f0f0;
+    background: #38c346;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  #form .btn:hover{
+    background: lightblue;
+    color: green;
+  }
+  
+  
+  .input-control{
+    width: 70%;
+    border-bottom: 1px solid #162938;
+    margin: 20px 0;
+  
+  }
+  .input-control input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* color: #162938; */
+    font-size: 1em;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+  }
+  .input-control > p{
+    color: red;
+  }
+  
+
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    margin: 15px 0 15px;
+  }
+  
+  .navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    width: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    
+
+  }
+  .navigation p{
+    color: rgb(22, 20, 20);
+  }
+  .navigation a:hover{
+    color: blue;
+    text-decoration: underline;
+    border-radius: 6px;
+  }
+  h3{
+    font-size: 1em;
+    color: #162938;
+    text-align: center;
+  }
+

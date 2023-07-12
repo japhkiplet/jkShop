@@ -1,0 +1,26 @@
+.homepage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+
+   
+    
+}
+.image{
+    width: 45%;
+    padding-left: 2rem;
+  
+
+}
+.image img{
+    width: 65%;
+    border-radius: 30px;
+    opacity: .7;
+    margin-left: 6rem;
+}
+
+.land-left{
+    width: 45%;
+}

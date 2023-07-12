@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* margin: 3rem; */
+    background: #d9d9d9;
+    font-family: poppins,sans-serif;
+  box-sizing: border-box;
+}

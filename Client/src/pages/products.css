@@ -1,0 +1,49 @@
+.products-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.formone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        
+        
+    }
+    .formone .bg{
+        top: 0;
+    }
+    label{
+        text-align: center;
+    }
+    input{
+        width: 90%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+    }
+    #category{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+
+
+    }
+   textarea{
+        width: 90%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        resize: none;
+   } 
+   .label-text{
+    color: black;
+    text-align: center;
+   }   
