@@ -1,10 +1,12 @@
 import prada from '../assets/prada.webp'
 import './home.css'
 import {Link} from 'react-router-dom'
+import Slider from '../pages/Slider'
 
 const Home = () => {
   return (
     <div className='home-container'>
+      <Slider/>
         <div  className='home-banner'>
             <div className='home-description'>
                 <h1>WELCOME TO  <span>JK-SHOES</span></h1>

@@ -1,7 +1,8 @@
 
 
 .navbar-container{
-    /* width: 100%; */
+    width: 100vw;
+    height: 80px;
     padding: 20px 40px;
     display: flex;
     justify-content: center;

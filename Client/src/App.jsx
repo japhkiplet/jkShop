@@ -8,24 +8,31 @@ import About from './component/About';
 import Product from './pages/Product';
 import Pricing from './component/Pricing';
 import { useSelector } from 'react-redux';
+import Slider from './pages/Slider';
+import { ShopContextProvider } from './context/Context';
+import Cart from './component/Cart';
 function App() {
   const  user = useSelector((state)=>state.user.user?.email);
   
 
   return (
     <>
+    <ShopContextProvider>
       <BrowserRouter>
       <Navbar/>
       
       <Routes>
         <Route path='/home' element={<Home/>}/>
         <Route path='/' element={<Landing/>}/>
-        <Route path='pricing' element= {user ?<Pricing/> :<Landing/>} />
-        <Route path='product' element={<Product/>}/>
-        <Route path='signup' element={<SignUp/>} />
-        <Route path='about' element={<About/>}/>
+        <Route path='/pricing' element= {user ?<Pricing/> :<Landing/>} />
+        <Route path='/product' element={<Product/>}/>
+        <Route path='/signup' element={<SignUp/>} />
+        <Route path='/about' element={<About/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/slider' element ={<Slider/>}/>
       </Routes>
     </BrowserRouter>
+    </ShopContextProvider>
     </>
   )
 }

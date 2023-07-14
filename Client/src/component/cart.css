@@ -1,0 +1,36 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+.cartItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 14px;
+}
+.product-card1{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    gap: 10px;
+    box-shadow: 0 7px 12px 0 rgba(0, 0, 0, .5);
+    transition: transform .5s;
+}
+.counthandler{
+    display: flex;
+   
+    margin: 20px;
+
+}
+.counthandler > input{
+    /* height: 4px;  */
+     align-items: first baseline;
+    
+}
